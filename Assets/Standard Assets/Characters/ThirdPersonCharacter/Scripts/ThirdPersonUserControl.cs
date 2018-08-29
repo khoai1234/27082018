@@ -35,10 +35,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void Update()
         {
-            if (!m_Jump)
-            {
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-            }
+            m_Character.Move(7 * m_CamForward + 3* m_Cam.right, false, false);
+            //if (!m_Jump)
+            //{
+            //    m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+            //}
         }
 
 
