@@ -13,10 +13,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
 
-        
+
+        Vector3 targetPosition;
+        Vector3 lookatTarget;
+        Quaternion playerRot;
+        float rotSpeed = 5;
+        float speed = 10;
         private void Start()
         {
-            // get the transform of the main camera
             if (Camera.main != null)
             {
                 m_Cam = Camera.main.transform;
@@ -30,47 +34,43 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             // get the third person character ( this should never be null due to require component )
             m_Character = GetComponent<ThirdPersonCharacter>();
-        }
 
+        }
 
         private void Update()
         {
-            m_Character.Move(7 * m_CamForward + 3* m_Cam.right, false, false);
-            //if (!m_Jump)
-            //{
-            //    m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-            //}
+            if (Input.GetMouseButton(0))
+            {
+                SettargetPosition();
+            }
+
+            m_Character.Move(lookatTarget, false, false);
+
         }
 
-
-        // Fixed update is called in sync with physics
-        private void FixedUpdate()
+        void SettargetPosition()
         {
-            // read inputs
-            float h = CrossPlatformInputManager.GetAxis("Horizontal");
-            float v = CrossPlatformInputManager.GetAxis("Vertical");
-            bool crouch = Input.GetKey(KeyCode.C);
-
-            // calculate move direction to pass to character
-            if (m_Cam != null)
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 1000))
             {
-                // calculate camera relative direction to move:
-                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
-                m_Move = v*m_CamForward + h*m_Cam.right;
+                targetPosition = hit.point;
+                //this.transform.LookAt(targetPosition);
+                lookatTarget = new Vector3(targetPosition.x - transform.position.x,
+                                           transform.position.y,
+                                           targetPosition.z - transform.position.z);
+                playerRot = Quaternion.LookRotation(lookatTarget);
             }
-            else
-            {
-                // we use world-relative directions in the case of no main camera
-                m_Move = v*Vector3.forward + h*Vector3.right;
-            }
-#if !MOBILE_INPUT
-			// walk speed multiplier
-	        if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
-#endif
-
-            // pass all parameters to the character control script
-            m_Character.Move(m_Move, crouch, m_Jump);
-            m_Jump = false;
         }
+        //void Move()
+        //{
+        //    transform.rotation = Quaternion.Slerp(transform.rotation,
+        //                                          playerRot,
+        //                                          rotSpeed * Time.deltaTime);
+        //    transform.position = Vector3.MoveTowards(transform.position,
+        //                                             targetPosition,
+        //                                             speed * Time.deltaTime);
+        //}
+
     }
 }
