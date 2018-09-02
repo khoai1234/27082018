@@ -43,9 +43,26 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 SettargetPosition();
             }
+            if (sosanh(lookatTarget,targetPosition))
+            {
+                m_Character.Move(lookatTarget, false, false);
+            }
+            else
+            {
 
-            m_Character.Move(lookatTarget, false, false);
+                m_Character.Move(new Vector3(0,0,0), false, false);
+            }
 
+
+        }
+        bool sosanh(Vector3 look, Vector3 target)
+        {
+            if (look.x > 0)
+                if (transform.position.x < target.x) return true;
+                else return false;
+            else
+                if (transform.position.x < target.x) return false;
+                else return true;
         }
 
         void SettargetPosition()
