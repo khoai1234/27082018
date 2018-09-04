@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 7a77b74cae638db4c9acf58fc7555946
+timeCreated: 1525198026
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: balcony
+    100002: balcony_cover
+    100004: barrels
+    100006: barrels_front
+    100008: building
+    100010: //RootNode
+    100012: chimney_005
+    100014: cover_roof_003
+    100016: gutters_000
+    100018: gutters_002
+    100020: roof
+    100022: split
+    100024: split_cover
+    100026: terrace
+    100028: window_029
+    100030: window_039
+    100032: window_front
+    100034: wood_balls
+    400000: balcony
+    400002: balcony_cover
+    400004: barrels
+    400006: barrels_front
+    400008: building
+    400010: //RootNode
+    400012: chimney_005
+    400014: cover_roof_003
+    400016: gutters_000
+    400018: gutters_002
+    400020: roof
+    400022: split
+    400024: split_cover
+    400026: terrace
+    400028: window_029
+    400030: window_039
+    400032: window_front
+    400034: wood_balls
+    2100000: metal_grey
+    2100002: plaster_white
+    2100004: wood_balls_brown
+    2100006: foundation_grey_brick
+    2100008: plaster_grey
+    2100010: wood_brown
+    2100012: roof_titles_old
+    2100014: window_glass
+    2100016: parapet
+    2100018: brick
+    2100020: curb
+    2100022: metal_red
+    2300000: balcony
+    2300002: balcony_cover
+    2300004: barrels
+    2300006: barrels_front
+    2300008: building
+    2300010: chimney_005
+    2300012: cover_roof_003
+    2300014: gutters_000
+    2300016: gutters_002
+    2300018: roof
+    2300020: split
+    2300022: split_cover
+    2300024: terrace
+    2300026: window_029
+    2300028: window_039
+    2300030: window_front
+    2300032: wood_balls
+    3300000: balcony
+    3300002: balcony_cover
+    3300004: barrels
+    3300006: barrels_front
+    3300008: building
+    3300010: chimney_005
+    3300012: cover_roof_003
+    3300014: gutters_000
+    3300016: gutters_002
+    3300018: roof
+    3300020: split
+    3300022: split_cover
+    3300024: terrace
+    3300026: window_029
+    3300028: window_039
+    3300030: window_front
+    3300032: wood_balls
+    4300000: barrels_front
+    4300002: building
+    4300004: wood_balls
+    4300006: roof
+    4300008: window_029
+    4300010: terrace
+    4300012: balcony
+    4300014: split
+    4300016: balcony_cover
+    4300018: split_cover
+    4300020: barrels
+    4300022: window_039
+    4300024: window_front
+    4300026: gutters_002
+    4300028: chimney_005
+    4300030: cover_roof_003
+    4300032: gutters_000
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick
+    second: {fileID: 2100000, guid: a6cb21423c74ba446af20a82224f5844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: curb
+    second: {fileID: 2100000, guid: cf381bf67b7a4804e85cb38661877baa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foundation_grey_brick
+    second: {fileID: 2100000, guid: 2a2738c5adba34449a2c7a9191a7bed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_grey
+    second: {fileID: 2100000, guid: ca71bef38e23ba943ac82960535703c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_red
+    second: {fileID: 2100000, guid: 6299f51ef37907d4880ee813b6bd69da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parapet
+    second: {fileID: 2100000, guid: 56a9edf48a0e7bb499e30d6fd5cb1f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_grey
+    second: {fileID: 2100000, guid: fc7a3b30490d1aa45a03eca94b065306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_white
+    second: {fileID: 2100000, guid: 03a224387011b94428e51ddc79422eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_titles_old
+    second: {fileID: 2100000, guid: b02367be91dc9b04bafae7f93feddd4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_glass
+    second: {fileID: 2100000, guid: 7b4e6be9db0b69941b738427df9d8278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_balls_brown
+    second: {fileID: 2100000, guid: 4841e58e477e33c4589f8d6d69497937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_brown
+    second: {fileID: 2100000, guid: b136894132b62b74e915bf066b69a965, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
