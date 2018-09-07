@@ -1,7 +1,5 @@
 fileFormatVersion: 2
-guid: 7a77b74cae638db4c9acf58fc7555946
-timeCreated: 1525198026
-licenseType: Free
+guid: 52259028f281baf46b466c4aea50a0b4
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -184,6 +182,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
