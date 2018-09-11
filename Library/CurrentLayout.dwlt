@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 53
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 53
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 54
+  controlID: 55
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,20 +491,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Model/House
+    - Assets/Weapons/Modern Russian Assault Rifle
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Model/House
+  - Assets/Weapons/Modern Russian Assault Rifle
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity Projects\New folder\27082018
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: 600f0000
-    m_LastClickedID: 3936
-    m_ExpandedIDs: 000000000c0a0000160b0000480c0000cc0d0000280f0000700f00009a140000b41400005c150000f03c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 535}
+    m_SelectedIDs: e83d0000
+    m_LastClickedID: 15848
+    m_ExpandedIDs: 000000000c0a0000160b0000480c0000cc0d0000280f0000700f00009a140000b41400005c1500005c3d0000863d0000e83d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c0a0000480c0000cc0d0000280f0000700f00009a140000b41400005c150000f03c0000
+    m_ExpandedIDs: 000000000c0a0000160b0000480c0000cc0d0000280f0000700f00009a140000b41400005c1500005c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,7 +560,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300007e6800008a0b0000e0340000
+    m_ExpandedInstanceIDs: c62300007e6800008a0b0000e0340000543e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -648,8 +648,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fef2ffff
-    m_LastClickedID: -3330
+    m_SelectedIDs: f43d0000
+    m_LastClickedID: 0
     m_ExpandedIDs: f0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -705,9 +705,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.338379, y: 3.4745722, z: -5.2241764}
+    m_Target: {x: 2.57378, y: 2.5515747, z: -0.4680586}
     speed: 2
-    m_Value: {x: 8.338379, y: 3.4745722, z: -5.2241764}
+    m_Value: {x: 2.57378, y: 2.5515747, z: -0.4680586}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -735,13 +735,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.2635489, y: 0.32439104, z: -0.09461881, w: -0.90352625}
+    m_Target: {x: -0.26314196, y: 0.5393812, z: -0.18223053, w: -0.77885586}
     speed: 2
-    m_Value: {x: -0.2635489, y: 0.32439104, z: -0.09461881, w: -0.90352625}
+    m_Value: {x: -0.26314196, y: 0.5393812, z: -0.18223053, w: -0.77885586}
   m_Size:
-    m_Target: 25.781847
+    m_Target: 30.128387
     speed: 2
-    m_Value: 25.781847
+    m_Value: 30.128387
   m_Ortho:
     m_Target: 0
     speed: 2
