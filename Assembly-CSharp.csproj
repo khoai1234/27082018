@@ -51,9 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Weapons\Weapon.cs" />
-     <Compile Include="Assets\Weapons\WeaponHandler.cs" />
-     <None Include="Assets\Weapons\Modern Russian Assault Rifle\Notes.txt" />
+     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
+     <Compile Include="Assets\Scripts\Characters\AI.cs" />
+     <Compile Include="Assets\Scripts\Characters\CharacterMovement.cs" />
+     <Compile Include="Assets\Scripts\Characters\CharacterStats.cs" />
+     <Compile Include="Assets\Scripts\Characters\FootstepSounds.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\SoundController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerUI.cs" />
+     <Compile Include="Assets\Scripts\Player\UserInput.cs" />
+     <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
+     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
+     <None Include="Assets\Imports\Modern Russian Assault Rifle\Notes.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Unity Projects/New folder/27082018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
