@@ -108,7 +108,7 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         if (owner) {
-            DisableEnableComponents(false);
+            DisableEnableComponents(true);
             if (equipped) {
                 if (owner.userSettings.rightHand) {
                     Equip();

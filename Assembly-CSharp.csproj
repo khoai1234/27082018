@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Utilities\TerrainSurface.cs" />
      <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
      <Compile Include="Assets\Scripts\Weapons\WeaponHandler.cs" />
+     <None Include="Assets\weapon pos config.txt" />
      <None Include="Assets\Imports\Modern Russian Assault Rifle\Notes.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Unity Projects/New folder/27082018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
